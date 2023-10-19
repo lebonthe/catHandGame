@@ -133,7 +133,7 @@ class ViewController: UIViewController {
         computerTurnLabel.isHidden.toggle()
         playerTurnLabel.isHidden.toggle()
         // 如果為電腦 Turn，則播放語音
-        if computerTurnLabel.isHidden == false{
+        if computerTurnLabel.isHidden == true{
             speakKelp()
         }
         // 顯示出拳
@@ -171,7 +171,7 @@ class ViewController: UIViewController {
         computerTurnLabel.isHidden.toggle()
         playerTurnLabel.isHidden.toggle()
         // 如果為電腦 Turn，則播放語音
-        if computerTurnLabel.isHidden == false{
+        if computerTurnLabel.isHidden == true{
             speakKelp()
         }
         // 顯示出拳
@@ -206,7 +206,7 @@ class ViewController: UIViewController {
         computerTurnLabel.isHidden.toggle()
         playerTurnLabel.isHidden.toggle()
         // 如果為電腦 Turn，則播放語音
-        if computerTurnLabel.isHidden == false{
+        if computerTurnLabel.isHidden == true{
             speakKelp()
         }
         // 顯示出拳
@@ -234,13 +234,9 @@ class ViewController: UIViewController {
             }
                 }
     }
-    
     // 重新開始
     @IBAction func resetGame(_ sender: UIButton) {
         viewDidLoad()
     }
-    
-
-
 }
 
